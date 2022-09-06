@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+        <!----Head-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Richard Bradley</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet/portfoloio.css">
+    </head>
+
+    <!---Body-->
+    <body class="background">
+        <!--nav bar-->
+        <div class="navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#GitHub">GitHub</a>
+            <a href="#contact">Contact</a>
+        </div>
+    <!---- Breadks inserted to add space between navbar and the first heading-->
+        <br>
+        <br>
+    <!--Background video -->
+    <div id="home">
+        <video autoplay muted loop id="Typing_Video">
+            <source src="images/video/Typing.mp4" type="video/mp4">
+            <!--display essage if video fails to run-->
+            Your browser does not support HTML5 video.
+        </video>
+    </div>    <!------Video text-->
+        <div class="Video_Text">
+            <h1 class="white-text">Richard Bradley's portfoloio</h1>
+            <strong>
+                <p class="center">
+                    <q>The computer programmer is a creater of the universe for which he  alone is teh lawgiver.
+                    <br>No playwright, no stage director, no emperor, however powerful, has ever exercised such absolute authority to arrange a stage or 
+                    <br>field of battle and to command such unswervingly dutiful actors or troops.
+                    </q>
+                    <br>-Joseph Weizenbaum
+                    <br>
+                    <br> Thanks for stopping by and ennjoy!
+                </p>
+            </strong>
+         </div>
+    <!--about section-->
+    <div class="Row" id="About">
+        <!--left column-->
+        <div class="Column_2">
+            <img src="images/moose.jpg" alt="Moose"> <!---- need to put a pic here-->
+        </div>
+    <!---right column-->
+        <div class="Column_1">
+            <h1>About</h1>
+            <p> I am a softwar developer who loves code! I enjoy spending time with my dog Moose and traveling
+            <br> I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>'s Cyber Security Bootcamp, and trained in??????
+            <br>
+            <br>I am ???????? and would love to bring value to a project your team is working on. <a href="#Contact">Contact</a> me below!
+            </p>
+        </div>
+    </div>
+    <!--github-->
+    <div class="Row" id="GitHub">
+        <!--Left column-->
+        <div class="Colum_1">
+            <h1>GitHub</h1>
+            <p>
+                You can view my coding projects on my GitHub profiel here:
+                <br>
+                <p class="center"><a href="https://github.com/the-tech-academy"
+                target="_blank">The Tech Academy Github</a></p>
+            </p>
+        </div>
+        <!--Richt Column-->
+        <div class="Coumn_2">
+            <a href="https://github.com/the-tech-academy" target="_blank"><img src="images/GitHub.png" alt="GitHub logo"></a>
+        </div>
+    </div>
+        <!--contact section-->
+        <div class="Row" id="Contact">
+            <!--contact image, left column-->
+            <div class="Column_2 column_tall">
+                <img src="images/keyboard.jpg" alt="Contact_Image">
+            </div>
+            <!--contact form, right column-->
+            <div class="Column_1 Column_tall">
+                <h1>Contact</h1>
+                <!-- this specifies where and how to send the form data; we are leaving it blank-->
+            <form action="" method="POST"><!--here we are utiliziing a 3rd party service to submit the contact form data, insert your formspree endpoinn the the action atrtribute-->
+                <label>Name:</label>
+                    <input type="text" placeholder="Please enter your name here">
+                <label>Email:</label>
+                    <input type="text" id="email" name="Email" placeholder="Please enter your email here">
+                <label>Message:</label>
+                    <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                    <input type="submit" value="SUBMIT">
+            </form>
+            </div>
+        </div>
+    <!--Footer section-->
+    <footer>
+        <p>
+            <p class="center">&copy Prosper Consulting Inc., <a href="https://learncodinganywhere.com/" target="_blank">The Tech Academy</a>
+            <br>
+            </p>
+        </p>
+    </footer>
+
+</body>
+
+</html>
