@@ -102,7 +102,7 @@ footer {
     to {left: 0vw;}/* this moves the navbar into place on teh screen*/
 }
 /*Navbar links*/
-.Navbar a {
+.navbar a {
     float: left;/* this specifies teh the text floats on the left of the navbar*/
     display: block;/* ensures that other text will be diplay on the same line or row, intsead of a new line*/
     color: white;
