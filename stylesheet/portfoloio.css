@@ -29,7 +29,7 @@ h1 {
 h1:hover {
     filter: grayscale(5%); /*Adds a slightly gray filter to the h1 headings when hovered over*/
     transform: scale(1.1);/* when the h1 elements are hovered over they increase in size by 1.1*/
-    transform: transform 1s;/*This causes the transformation to last 1 second*/
+    transition: transform 1s;/*This causes the transformation to last 1 second*/
 }
 /*Stylinng for portfolio title text*/
 .white-text {
@@ -319,7 +319,7 @@ mySlides{
 /****** END OF THE TABLE STYLING****/
 /******CONTACT FORM STYLING*******/
 /*input [type=text] targets all text input sections of the contact form*/
-..Pop_Up_Button {
+.Pop_Up_Button {
     position: fixed;
     bottom: 1.75vw;
     right: 1.75vw;
