@@ -85,7 +85,7 @@ img:hover {
 }
 /* the @media rule is used in media queries to apply different styles for different media/types of dvices
 on screens 576px and smaller the images will be 100px tall and centered vertically in the column*/ 
-@mdeia screen and (max-width: 576px) {
+@media screen and (max-width: 576px) {
 img {
     height: 100px;
     margin-top: 150px;
@@ -246,7 +246,8 @@ mySlides{
     width: 100%;
     text-align: center;
     font-family: Perpetua, Rockwell Extra Bold;
-    letter-spacing: 1.5vw;
+    letter-spacing: .1vw;
+    font-size: 1.5vw;
     background-color: rgba(0, 0, 0, 0.75);
     font-weight: bold;
     border-radius: 0px 0px 7px 7px;
@@ -296,7 +297,7 @@ mySlides{
     background-color: #f2f2f2;
 }
 /* screens 576 and smaller will display a scroll bar if the text overflows the column height*/
-@mdeia screen and (max-width: 576px) {
+@media screen and (max-width: 576px) {
     .Column_1 {
         overflow: auto;
     }
@@ -319,7 +320,7 @@ mySlides{
 /****** END OF THE TABLE STYLING****/
 /******CONTACT FORM STYLING*******/
 /*input [type=text] targets all text input sections of the contact form*/
-.Pop_Up_Button {
+Pop_Up_Button {
     position: fixed;
     bottom: 1.75vw;
     right: 1.75vw;
